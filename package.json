@@ -1,0 +1,11 @@
+{
+  "name": "pocket-api",
+  "version": "1.0.0",
+  "description": "Pocket API wrapper for NodeJS",
+  "main": "index.js",
+  "author": "Chak Shun Yu",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.88.0"
+  }
+}
