@@ -14,10 +14,7 @@ export const obtainRequestToken = consumerKey =>
     const options = {
       headers,
       url: urls.request,
-      body:
-        'consumer_key=' +
-        consumerKey +
-        '&redirect_uri=pocketapp1234:authorizationFinished',
+      body: `consumer_key=${consumerKey}&redirect_uri=pocketapp1234:authorizationFinished`,
     };
     request.post(options, (err, resp, body) => {
       if (err) rej(err);
